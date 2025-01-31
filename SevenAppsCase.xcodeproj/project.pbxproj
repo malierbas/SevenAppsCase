@@ -6,7 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		4177C8DD2D4CB3000001848D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F9D5BC2D4BA06900F6A116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F9D5C32D4BA06900F6A116;
+			remoteInfo = SevenAppsCase;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4177C8D92D4CB3000001848D /* SevenAppsCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenAppsCaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F9D5C42D4BA06900F6A116 /* SevenAppsCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenAppsCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -21,6 +32,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4177C8DA2D4CB3000001848D /* SevenAppsCaseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SevenAppsCaseTests;
+			sourceTree = "<group>";
+		};
 		41F9D5C62D4BA06900F6A116 /* SevenAppsCase */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,6 +48,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4177C8D62D4CB3000001848D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41F9D5C12D4BA06900F6A116 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				41F9D5C62D4BA06900F6A116 /* SevenAppsCase */,
+				4177C8DA2D4CB3000001848D /* SevenAppsCaseTests */,
 				41F9D5C52D4BA06900F6A116 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				41F9D5C42D4BA06900F6A116 /* SevenAppsCase.app */,
+				4177C8D92D4CB3000001848D /* SevenAppsCaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +86,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4177C8D82D4CB3000001848D /* SevenAppsCaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4177C8DF2D4CB3000001848D /* Build configuration list for PBXNativeTarget "SevenAppsCaseTests" */;
+			buildPhases = (
+				4177C8D52D4CB3000001848D /* Sources */,
+				4177C8D62D4CB3000001848D /* Frameworks */,
+				4177C8D72D4CB3000001848D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4177C8DE2D4CB3000001848D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4177C8DA2D4CB3000001848D /* SevenAppsCaseTests */,
+			);
+			name = SevenAppsCaseTests;
+			packageProductDependencies = (
+			);
+			productName = SevenAppsCaseTests;
+			productReference = 4177C8D92D4CB3000001848D /* SevenAppsCaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		41F9D5C32D4BA06900F6A116 /* SevenAppsCase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41F9D5D72D4BA06A00F6A116 /* Build configuration list for PBXNativeTarget "SevenAppsCase" */;
@@ -93,6 +141,10 @@
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					4177C8D82D4CB3000001848D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 41F9D5C32D4BA06900F6A116;
+					};
 					41F9D5C32D4BA06900F6A116 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -113,11 +165,19 @@
 			projectRoot = "";
 			targets = (
 				41F9D5C32D4BA06900F6A116 /* SevenAppsCase */,
+				4177C8D82D4CB3000001848D /* SevenAppsCaseTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4177C8D72D4CB3000001848D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41F9D5C22D4BA06900F6A116 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +188,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4177C8D52D4CB3000001848D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41F9D5C02D4BA06900F6A116 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +204,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4177C8DE2D4CB3000001848D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F9D5C32D4BA06900F6A116 /* SevenAppsCase */;
+			targetProxy = 4177C8DD2D4CB3000001848D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4177C8E02D4CB3000001848D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K486TPXX49;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.SevenAppsCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SevenAppsCase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SevenAppsCase";
+			};
+			name = Debug;
+		};
+		4177C8E12D4CB3000001848D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K486TPXX49;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.SevenAppsCaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SevenAppsCase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SevenAppsCase";
+			};
+			name = Release;
+		};
 		41F9D5D82D4BA06A00F6A116 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,6 +443,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4177C8DF2D4CB3000001848D /* Build configuration list for PBXNativeTarget "SevenAppsCaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4177C8E02D4CB3000001848D /* Debug */,
+				4177C8E12D4CB3000001848D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		41F9D5BF2D4BA06900F6A116 /* Build configuration list for PBXProject "SevenAppsCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

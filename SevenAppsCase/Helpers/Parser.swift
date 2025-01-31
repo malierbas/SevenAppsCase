@@ -12,12 +12,8 @@ struct Parser {
     let jsonDecoder = JSONDecoder()
     
     func json<T: Decodable>(data: Data) throws -> T {
-        do {
-            let responseModel = try JSONDecoder().decode(T.self, from: data)
-            return responseModel
-        } catch {
-            throw error
-        }
+        let responseModel = try JSONDecoder().decode(T.self, from: data)
+        return responseModel
     }
     
     func getModel<T: Decodable>(from data: Data) -> T? {

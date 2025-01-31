@@ -12,8 +12,8 @@ class UsersViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     //variables
-    private var users: [User] = []
-    private var viewModel: UsersViewModel?
+    var users: [User] = []
+    var viewModel: UsersViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class UsersViewController: UIViewController {
         title = "Users"
     }
     
-    private func setupView() {
+    func setupView() {
         viewModel = UsersViewModel(containerView: self)
         tableView.register(.init(nibName: "UserItemTableViewCell", bundle: nil), forCellReuseIdentifier: UserItemTableViewCell.reuseIdentifier)
         tableView.isHidden = true

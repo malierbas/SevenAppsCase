@@ -11,7 +11,7 @@
         <!--Users View Controller-->
         <scene sceneID="fFs-HD-lrE">
             <objects>
-                <viewController id="RAe-5C-MIz" customClass="UsersViewController" customModule="SevenAppsCase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UsersViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RAe-5C-MIz" customClass="UsersViewController" customModule="SevenAppsCase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PIz-vA-K19">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
